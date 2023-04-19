@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:aqua ;
+}
+.navbar {
+background-color: bisque;
+height: 60px;
+margin-left: 500px;
+padding-top: 15px;
+}
+.navbar > ul{
+    display: flex;
+    padding: 5px;
+}
+.navbar >ul >li {
+    list-style-type: none;
+    padding: 5px;
+}
+.navbar > ul >li >a{
+    text-decoration: none;
+}
+img{
+    width: 100px;
+    height: 80;
+}
+.one{
+    background-color:bisque ;
+    display: flex;
+    justify-content: space-between;
+}
+#photo{
+    height: 400px;
+    width: 400px    ;
+}
+.section1{
+    display: flex;
+}
+.div > p{
+    margin-top: 140px;
+}
