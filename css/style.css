@@ -15,7 +15,9 @@ body{
     background-image: url(../pictures/bglog.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-     padding-top: 150px; 
+     /* padding-top: 150px;  */
+     height: 100vh;
+     width: 100vw;
 }
 .container{
     color: #fff;
@@ -63,6 +65,10 @@ body{
 .header-items{
     margin-left: 30px;
 }
+.header-items2{
+   display: none;
+   float: right;
+}
 .signup{
     background-color: #4d4d4d;
     border-radius: 28px;
@@ -82,7 +88,7 @@ body{
     display: flex;
     padding: 0 60px;
     width: 80%;
-    margin:0 10px;
+    margin:5rem 10px;
 }
 .imgs img{
     width: 150px;
@@ -97,4 +103,39 @@ body{
 }
 .limg{
     padding-top: 90px;
+}
+.humberger{
+    display: none;
+    float: right;
+    right: 30px;
+    position: relative;
+    top: 12px;
+
+}
+.show{
+    display: block;
+}
+@media screen and (max-width: 768px){
+    .header{
+        display: block;
+        align-items: center;
+    }
+    .imgs{
+        display: none;
+    }
+    .humberger{
+        display: inline-block;
+        margin-top: 5rem;
+    }
+    body{
+        background-size: cover;
+        background-position: center;
+    }
+    .container{
+        margin-top: 10rem;
+        padding-top: 5rem;
+    }
+    .header-items{
+        display: none;
+    }
 }

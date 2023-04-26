@@ -1,8 +1,4 @@
-var myDiv = document.getElementById("root");
-var p = document.createElement("p");
-p.innerHTML = "'hello world";
-myDiv.append(p+);
-
-
-
-
+function showMeMenu(){
+    var humberger=document.querySelector('.header-items2');
+    humberger.classList.toggle("show");
+}
