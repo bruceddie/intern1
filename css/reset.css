@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+h1{
+    font-family: 'Irish Grover', cursive;
+    text-decoration: underline;
+}
+h3{
+    font-family: 'Irish Grover', cursive;
+    padding-top: 20px;
+    margin-left: 3rem;
+}
+body{
+    background-image: url(../pictures/bglog.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px;
+}
+.container{
+    color: #fff;
+    place-items: center;
+    display: flex; 
+    justify-content: center; 
+    flex-direction: column;
+    /* border: 1px solid; */
+}
+.form{
+    display: block;
+    /* border: 1px solid; */
+}
+.form form{
+    display: flex;
+    flex-direction: column;
+    padding:0;
+}
+.form form input{
+    padding: 5px;
+    margin: 5px 0px;
+    border-radius: 22px;
+    width: 280px;
+    background-color: #FCE87C;
+    opacity: 71%;
+    text-align: center;
+}
+.buttons{
+    display: flex;
+}
+p{
+    text-align: center;
+    text-decoration: underline;
+}
+h1{
+    margin-left: -20x;
+}
+.fin{
+    border-radius: 20px;
+    width: 145px;
+    cursor: pointer;
+    background-color: aquamarine;
+    opacity: 71%;
+}
+.res{
+    border-radius: 20px;
+    width: 145px;
+    cursor: pointer;
+    background-color: #E05F5F;
+    opacity: 71%;
+}

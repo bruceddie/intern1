@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Log in</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="/icons/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
     <button class="humberger" onclick="showMeMenu()">menu</button>
@@ -15,35 +19,45 @@
     </div>
     <div class="container">
       <div>
-      
         <div class="header">
           <h1>XCEPTIONAL TECH</h1>
+
           <div class="header-items">
+            <i
+              style="margin-left: 1rem; padding-right: 0; font-size: 35px"
+              class="fa fa-globe"
+              aria-hidden="true"
+            ></i>
             <select name="language">
               <option value="English">En</option>
               <option value="English">French</option>
               <option value="English">Kinya</option>
               <option value="English">English</option>
             </select>
-            <a href="/html codes/signUp.html" class="signup">sign up</a>
+            <a href="/html_codes/signUp.html" class="signup">sign up</a>
           </div>
           <div class="header-items2">
+            <i
+              style="margin-left: 1rem; padding-right: 0; font-size: 35px"
+              class="fa fa-globe"
+              aria-hidden="true"
+            ></i>
             <select name="language">
               <option value="English">En</option>
               <option value="English">French</option>
               <option value="English">Kinya</option>
               <option value="English">English</option>
             </select>
-            <a href="/html codes/signUp.html" class="signup">sign up</a>
+            <a href="/html_codes/signUp.html" class="signup">sign up</a>
           </div>
         </div>
         <div class="form">
           <h3>Already have an account?</h3>
-          <form>
+          <form action="html_codes/home.html" method="get">
             <input type="text" class="input" placeholder="User name" />
             <input type="password" class="input" placeholder="Password" />
             <input type="submit" class="login" value="Login" />
-            <a href="#">forgot your password?</a>
+            <a href="/html_codes/reset.html">forgot your password?</a>
           </form>
         </div>
       </div>
@@ -55,4 +69,3 @@
 
   <script src="/script.js"></script>
 </html>
-   
