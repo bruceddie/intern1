@@ -14,6 +14,8 @@
     <div class="header">
       <h1>XCEPTIONAL TECH</h1>
     </div>
+  
+  
     <div class="form" >
       <h3>Create a new account?</h3>
       <form action="#" method="POST" autocomplete="off">
