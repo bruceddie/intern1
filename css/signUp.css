@@ -54,3 +54,12 @@ p{
 h1{
     margin-left: -20x;
 }
+/* 
+.container a{
+    color: #fff !important;
+}
+
+a:-webkit-any-link {
+    color: #fff !important;
+    cursor: pointer;
+} */

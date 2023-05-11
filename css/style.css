@@ -15,9 +15,9 @@ body{
     background-image: url(../pictures/bglog.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-     /* padding-top: 150px;  */
-     height: 100vh;
-     width: 100vw;
+    /* padding-top: 150px;   */
+    height: 100vh;
+    width: 100vw;
 }
 .container{
     color: #fff;
@@ -44,6 +44,7 @@ body{
     text-align: center;
     opacity: 80%;
     margin: 10px 0;
+    cursor: pointer;
 }
 .form a{
     color: #fff;

@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;  
+}
+body{
+    background-image: url(../pictures/bglog.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    /* background: rgba(45, 41, 35, 0.7); */
+}
+.header h1{
+    text-align: center;
+    margin-top: 3rem;
+    font-family: 'Irish Grover', cursive;
+    text-decoration: underline;
+}
+.header{
+    background: rgba(45, 41, 35, 0.7);
+    /* text-align: center;
+    display: flex;  */
+}
+.container h2{
+    font-family:'Irish Grover', cursive ;
+    font-size: 35px;
+}
+.container{
+    display: block;
+    padding: 4rem;
+    /* background: rgba(45, 41, 35, 0.7); */
+}
+.container .row1{
+    display: flex;  
+    justify-content: space-between;
+    text-align: center ;
+}
+.container .row2{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 30px;
+}
+.container img{
+    width: 350px;
+    height: 230px;
+    border-radius: 27px;
+    transition: transform .3s ease-out;
+}
+.container .cards:hover{
+    transform: scale(1.1);
+}
+/* .footer{
+    background: rgba(45, 41, 35, 0.7);
+} */
+.main{
+    background: rgba(45, 41, 35, 0.7);
+    border:#000 1px solid;
+    height: 105vh;
+}
+.container .cards{
+    transition: transform .3s ease-out;
+}
+/* .header img{
+    width: 40px;
+    height: 40px;
+}  */

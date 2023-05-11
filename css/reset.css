@@ -42,6 +42,7 @@ body{
 }
 .buttons{
     display: flex;
+    justify-content: space-between; 
 }
 p{
     text-align: center;
@@ -63,4 +64,9 @@ h1{
     cursor: pointer;
     background-color: #E05F5F;
     opacity: 71%;
+    text-align: center;
+}
+.res a{
+    text-decoration: none;
+    color: black;
 }

@@ -16,6 +16,8 @@ body{
 .left-nav{
     height: 115\vh;
     box-shadow: rgba(255, 255, 255, 0.523) 0px 0px 0px 1px;
+    position: relative;
+    padding: 10px 5px;
 }
 .edd{
     /* border: 1px solid; */
@@ -26,7 +28,11 @@ body{
 }
 .top-nav{
     /* border: 1px solid; */
-    padding: 2rem;
+    padding: 10px 2rem;
+    display: flex;
+}
+.top-nav  img {
+  width: 50px;
 }
 .main{
     padding: 2rem;
@@ -51,7 +57,6 @@ body{
     border-radius: 18px;
     font-size: 25px;
 }
-
 .button-85 {
   padding: 0.6em 2em;
   border: none;
@@ -137,4 +142,31 @@ p{
 }
 h3{
     margin-top: -5rem ;
+}
+.top-nav img {
+  width: 30px;
+  cursor: pointer;
+}
+/* .top-nav img:hover{
+  width: 35px;
+} */
+.top-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left-nav img {
+  width: 45px;
+  cursor: pointer;
+}
+.sml{
+  display: flex;
+  flex-direction: column ;
+  margin-top: 35rem;
+}
+.sml img{
+   margin: 2px 0px;
+   cursor: pointer;
+   width: 45px;
 }

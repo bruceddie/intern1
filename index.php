@@ -14,8 +14,8 @@
   <body>
     <button class="humberger" onclick="showMeMenu()">menu</button>
     <div class="imgs">
-      <img src="/pictures/bglog.jpg" alt="" />
-      <img src="/pictures/bglog.jpg" alt="" />
+      <img src="pictures/bglog.jpg" alt="" />
+      <img src="pictures/bglog.jpg" alt="" />
     </div>
     <div class="container">
       <div>
@@ -34,7 +34,7 @@
               <option value="English">Kinya</option>
               <option value="English">English</option>
             </select>
-            <a href="/html_codes/signUp.html" class="signup">sign up</a>
+            <a href="html_codes/signUp.php" class="signup">sign up</a>
           </div>
           <div class="header-items2">
             <i
@@ -53,11 +53,11 @@
         </div>
         <div class="form">
           <h3>Already have an account?</h3>
-          <form action="html_codes/home.html" method="get">
+          <form action="html_codes/home.php" method="get">
             <input type="text" class="input" placeholder="User name" />
             <input type="password" class="input" placeholder="Password" />
             <input type="submit" class="login" value="Login" />
-            <a href="/html_codes/reset.html">forgot your password?</a>
+            <a href="html_codes/reset.php">forgot your password?</a>
           </form>
         </div>
       </div>

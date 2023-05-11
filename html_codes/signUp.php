@@ -14,9 +14,9 @@
     <div class="header">
       <h1>XCEPTIONAL TECH</h1>
     </div>
-  
-  
-    <div class="form" >
+
+
+    <div class="form">
       <h3>Create a new account?</h3>
       <form action="#" method="POST" autocomplete="off">
         <input type="email" placeholder="email" name="em" required>
@@ -24,7 +24,7 @@
         <input type="text" placeholder="Last name" name="lname" required>
         <input type="password" placeholder="password" name="pass" required>
         <button name="btn">submit</button>
-        <p>arleady have an account?<a href="/index.html">login</a></p>
+        <p>arleady have an account? <a href="../" style="color: #fff;">login</a></p>
       </form>
     </div>
 </div>
@@ -33,16 +33,15 @@
 </html>
 <?php
 if (isset($_POST['btn'])) {
-  include"connect.php";
+  include "connect.php";
   $email = $_POST['em'];
   $firstname = $_POST['fname'];
   $lastname = $_POST['lname'];
   $password = $_POST['pass'];
   $qery = mysqli_query($conn, "insert into users values ('','$email','$firstname','$lastname','$password')");
-  if($qery){
+  if ($qery) {
     echo "<script> alert('Added successfully!!');</script>";
-  }
-  else{
+  } else {
     echo "<script> alert('failed to connect!!');</script>";
   }
 }
