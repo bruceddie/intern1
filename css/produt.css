@@ -9,17 +9,18 @@ body{
     background-repeat: no-repeat;
     color: #fff;
     /* background: rgba(45, 41, 35, 0.7); */
+    padding-top: 20px;
 }
 .header h1{
-    text-align: center;
-    margin-top: 3rem;
+    margin-top: 0rem;
+    margin-left: 40%;
     font-family: 'Irish Grover', cursive;
     text-decoration: underline;
 }
 .header{
     background: rgba(45, 41, 35, 0.7);
-    /* text-align: center;
-    display: flex;  */
+    text-align: center;
+    display: flex; 
 }
 .container h2{
     font-family:'Irish Grover', cursive ;
@@ -46,6 +47,7 @@ body{
     height: 230px;
     border-radius: 27px;
     transition: transform .3s ease-out;
+    cursor: pointer;
 }
 .container .cards:hover{
     transform: scale(1.1);
@@ -61,7 +63,7 @@ body{
 .container .cards{
     transition: transform .3s ease-out;
 }
-/* .header img{
+.header img{
     width: 40px;
     height: 40px;
-}  */
+} 
